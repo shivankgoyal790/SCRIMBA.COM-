@@ -1,0 +1,113 @@
+body{
+    background-color: #1b1b1b;
+    margin :0;
+}
+
+.container{
+   width: 58%;
+   margin-top: 3%;
+   margin-left: 19.5%;        
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    margin-top: 0.5%;
+    margin-left: 0.8%;
+    width: 100%;
+
+}
+
+#inpt{
+
+    padding: 20px 16px;
+    border-top:2px solid rgb(1, 153, 1);
+    background-color: rgb(59, 58, 58);
+    color: white;
+    text-align: right;    
+    width: 100%;
+    height:150px;
+    font-size: 40px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.images{
+
+    display: none;
+    width: 100%;
+}
+
+.width{
+    width: 100%;
+}
+
+.active{
+    background-color:rgb(1, 153, 1) ;
+}
+
+.btn{
+    
+    flex:25%;
+    background-color: rgb(73, 72, 72);
+    text-align: center;
+    border:none;
+    color: white;
+    padding-top:18px;
+    padding-bottom:18px ;
+    font-size: 32px;
+    margin-left: 1%;
+    border-radius: 4%;
+}
+
+.btn2{
+    
+    flex:51%;
+    background-color: rgb(73, 72, 72);
+    text-align: center;
+    border:none;
+    color: white;
+    padding-top:18px;
+    padding-bottom:18px ;
+    font-size: 32px;
+    margin-left: 1%;
+}
+
+
+
+.btn1{
+    
+    flex:25%;
+    background-color: #14a01b;
+    text-align: center;
+    border:none;
+    color: white;
+    padding-top:18px;
+    padding-bottom:18px ;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+.btn2:hover{
+    background-color: grey;
+}
+
+
+@media screen and (max-width:600px){
+
+    .container{
+        width: 95%;
+        margin-left: 1%;
+        margin-top: 25%;
+    }   
+
+    .images{
+        display: block;
+    }
+}
