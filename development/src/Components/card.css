@@ -1,0 +1,52 @@
+.card{
+    border-radius: 6%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.oval-div{
+    border-top : 1px solid black;
+    padding: 10px 0px;
+    border-radius:15%;
+}
+
+.cardheader{
+    padding: 15px 15px 5px 55px;
+    height: 160px;
+    text-align: right;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content1{
+    float: left;
+    padding: 10px 10px;
+}
+.content2{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+.hours{
+
+    border-left: 1px solid black;
+    padding-left: 4px;
+}
+
+.foot{
+    clear: both;
+    margin-top: 30%;
+    padding:10px 10px;
+}
+
+.p1{
+
+    line-height: 5px;
+}
+
+.p2{
+    line-height:  5px;
+}
