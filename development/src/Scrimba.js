@@ -4,6 +4,7 @@ import Logo1 from "E:/react_practice/development/src/Images/dark-logo (1).svg";
 import Logo2 from "E:/react_practice/development/src/Images/peep-guy-macbook.svg";
 import Logo3 from "E:/react_practice/development/src/Images/peep-girl-wheelchair.svg";
 import Logo4 from "E:/react_practice/development/src/Images/peep-man-bearded.svg";
+import Cardsofcards from "E:/react_practice/development/src/Components/Cardsofcards.js";
 
 class Scrimba extends React.Component {
 
@@ -80,6 +81,13 @@ render(){
                 
             </span>
            
+        </div>
+        <div>
+
+            <Cardsofcards />
+            <Cardsofcards />
+
+
         </div>
 
     
