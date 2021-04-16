@@ -4,12 +4,16 @@ import Logo1 from "E:/react_practice/development/src/Images/dark-logo (1).svg";
 import Logo2 from "E:/react_practice/development/src/Images/peep-guy-macbook.svg";
 import Logo3 from "E:/react_practice/development/src/Images/peep-girl-wheelchair.svg";
 import Logo4 from "E:/react_practice/development/src/Images/peep-man-bearded.svg";
+import logo5 from "E:/react_practice/development/src/Images/video.jpg";
+import logo6 from "E:/react_practice/development/src/Images/founders.jpg";
 import Cardsofcards from "E:/react_practice/development/src/Components/Cardsofcards.js";
+import logo7 from "E:/react_practice/development/src/Images/shape-light-coral-edge-bottom.svg"
+import Discord from "E:/react_practice/development/src/Components/Discord.js";
 
 class Scrimba extends React.Component {
 
 
-    
+  /*  
     myfunction1 = () =>{
         var x=window.pageYOffset;
         var y = document.getElementById("nav");
@@ -17,12 +21,12 @@ class Scrimba extends React.Component {
         
             y.style.display = "none";
         }
-
+*/
 render(){
     return(
-        <div id="main" onScroll={() => this.myfunction1()}>
+        <div id="main">
             
-                <div id="nav">
+                <div className="nav">
                     <span>
                         <img className="logo1" src={Logo1} alt="logo1" />
                     </span>
@@ -85,9 +89,105 @@ render(){
         <div>
 
             <Cardsofcards />
-            <Cardsofcards />
+            
 
 
+        </div>
+        <div>
+
+            <Discord />
+        </div>
+
+
+        <div>
+                <div className="flex-container3">
+                    <div className="flexbox1">
+                    <img className="videoimage" src={logo5} alt="hi" />
+                    </div>
+                    <div className="flexbox2">
+                      <h1>About the platform </h1>
+                      <p>Scrimba is the next-generation platform for learning how to code. Our screencasts
+                       enable you to interact with the code directly in the player. 
+                      This way, you'll have more fun and learn faster.</p>
+                      <p>Our courses cover subjects like HTML, CSS, JavaScript, React, Vue, and more.
+                       They're all made with the goal of advancing your career. So pick a course and give your career a boost!</p>
+                    </div>
+                  
+                </div>
+
+                <div className="flex-container4">
+                    <div className="flexbox3">
+                        <h1>
+                            Hi! from the founders
+                        </h1>
+                        <p>
+                        Our goal is to create the best possible coding school at the lowest possible cost for students.
+                         If we succeed with this, it’ll give anyone who wants to become a software developer a realistic shot at succeeding. 
+                        Regardless of where they live and the size of their wallets.
+                        </p>
+                        <div className="thought">
+                        “To achieve this, we’ve created a new video format for code screencasts. We call it “scrims”.
+                        </div>
+                        <p>
+                        This format is the backbone of our school. Not only because it results in a superior learning experience. 
+                        But also because it enables us to iterate more quickly, to attract better teachers, 
+                        to facilitate better peer-learning, to keep server costs low, and much more.
+                        </p>
+                    </div>
+                    <div className="flexbox4">
+                        <img className="founders" src={logo6} alt="hi" /> 
+                        <p className="text">Sindre & Per</p>
+                        <p>Connect with us on Twitter</p>
+                        <button className="btn7">Say Hi @Sindreaars</button><br /><br />
+                        <button className="btn7">Say Hi @Perborgen</button>
+                    </div>
+
+                    <footer>
+                        <img className="bottom" src={logo7} alt="hi" />
+                        <div>
+                        <div className="col1">
+                            <ul className="list2">
+                            <li><img className="logo1" src={Logo1} alt="scrimba"/></li>
+                               <li> Home</li> 
+                               <li> Discord</li>
+                               <li>Twitter</li>
+                               <li>YouTube</li>
+                            </ul>
+                        </div>
+                        <div className="col2">
+                            <ul className="list2">
+                                <li><b>Resources</b></li>
+                                <li>Blog</li>
+                                <li>FAQ</li>
+                                <li>Terms</li>
+                                <li>Privacy</li>
+                            </ul>
+                        </div>
+                        <div className="col2">
+                            <ul className="list2">
+                                <li><b>Courses</b></li>
+                                <li>All courses</li>
+                                <li>Intro courses</li>
+                                <li>Learn JavaScript</li>
+                                <li>Learn React</li>
+
+                                
+                            </ul>
+                        </div>
+                        <div className="col2">
+                            <ul className="list2">
+                                <li><b>Company</b></li>
+                                <li>About us</li>
+                                <li>Contact us</li>
+                                <li>Support chat</li>
+                                <li>Gift membership</li>
+                            </ul>
+                        </div>
+
+                        <p className="lastline"> Build By <b>Shivank</b>  </p>
+                        </div>
+                    </footer>
+                </div>
         </div>
 
     
