@@ -1,0 +1,65 @@
+.backimage1{
+position: relative;
+text-align: center;
+}
+.img1{
+    width: 600px;
+}
+
+.img2{
+    width: 450px;
+}
+
+.para9{
+    color: hsl(250,18%,19%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 0px;
+}
+
+.heading6{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: hsl(250,18%,19%);
+}
+
+.btn7{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 18px;
+}
+
+
+.btn7:hover{
+    box-shadow:5px 5px 20px 20px rgb(0,0,0,0.1);
+    transition: all 0.1s ease-out;
+    --box-shadow-glow: 0 0 0 4px hsla(205.22,79.31%,65.88%,30%);
+    margin-top: -2px;
+}
+
+.discordback{
+    background-color: white;
+    padding: 40px 0px;
+}
+
+.backimage2{
+    position:absolute;
+    text-align: center;
+    top:17.5%;
+    left:35%;   
+    z-index: 1;
+}
+
+.discordcontainer{
+    position: absolute;
+    top:1%;
+    left: -40%;
+
+}
