@@ -11,17 +11,6 @@ import logo7 from "E:/react_practice/development/src/Images/shape-light-coral-ed
 import Discord from "E:/react_practice/development/src/Components/Discord.js";
 
 class Scrimba extends React.Component {
-
-
-  /*  
-    myfunction1 = () =>{
-        var x=window.pageYOffset;
-        var y = document.getElementById("nav");
-        if( x > 0)
-        
-            y.style.display = "none";
-        }
-*/
 render(){
     return(
         <div id="main">
@@ -45,11 +34,8 @@ render(){
 
             <div className="my">
                 <span className="heading1">
-                <p className="line1">Don't spend $15,000</p>
-                <p className="line2">on a coding</p>
-                <p className="line3">bootcamp</p>
-                <p className="line4">Our career path helps motivated students become</p>   
-                <p className="line5">hireable frontend developers for <b>1% of the cost</b></p>
+                <div className="line1">Don't spend $15,000 on a coding bootcamp </div>
+                <div className="line4">Our career path helps motivated students become hireable frontend developers for <b>1% of the cost</b></div>
                 <br /><p><button className="btn4">Try It Out Now!</button> </p>
                 </span>
                 <span className="imageheading">
@@ -80,25 +66,15 @@ render(){
                     <span className="heading4">
                         <p>Our interactive code-learning tool<br/>  has been blowing minds since 2017. </p>
                     </span>
-
-                    
-                
-            </span>
+                </span>
            
         </div>
         <div>
-
             <Cardsofcards />
-            
-
-
         </div>
         <div>
-
-            <Discord />
+             <Discord />
         </div>
-
-
         <div>
                 <div className="flex-container3">
                     <div className="flexbox1">
@@ -112,7 +88,6 @@ render(){
                       <p>Our courses cover subjects like HTML, CSS, JavaScript, React, Vue, and more.
                        They're all made with the goal of advancing your career. So pick a course and give your career a boost!</p>
                     </div>
-                  
                 </div>
 
                 <div className="flex-container4">
@@ -142,12 +117,15 @@ render(){
                         <button className="btn7">Say Hi @Perborgen</button>
                     </div>
 
+                 </div>   
+        </div>
                     <footer>
                         <img className="bottom" src={logo7} alt="hi" />
                         <div>
                         <div className="col1">
+                                <p> <img className="logo1" src={Logo1} alt="scrimba"/></p>
                             <ul className="list2">
-                            <li><img className="logo1" src={Logo1} alt="scrimba"/></li>
+                         
                                <li> Home</li> 
                                <li> Discord</li>
                                <li>Twitter</li>
@@ -155,17 +133,18 @@ render(){
                             </ul>
                         </div>
                         <div className="col2">
+                            <h3> Resources</h3>
                             <ul className="list2">
-                                <li><b>Resources</b></li>
-                                <li>Blog</li>
+                                 <li>Blog</li>
                                 <li>FAQ</li>
                                 <li>Terms</li>
                                 <li>Privacy</li>
                             </ul>
                         </div>
                         <div className="col2">
+                                <h3>Courses</h3>
                             <ul className="list2">
-                                <li><b>Courses</b></li>
+                              
                                 <li>All courses</li>
                                 <li>Intro courses</li>
                                 <li>Learn JavaScript</li>
@@ -175,8 +154,9 @@ render(){
                             </ul>
                         </div>
                         <div className="col2">
+                            <h3>Company</h3>
                             <ul className="list2">
-                                <li><b>Company</b></li>
+                                
                                 <li>About us</li>
                                 <li>Contact us</li>
                                 <li>Support chat</li>
@@ -187,8 +167,8 @@ render(){
                         <p className="lastline"> Build By <b>Shivank</b>  </p>
                         </div>
                     </footer>
-                </div>
-        </div>
+               
+  
 
     
         </div>
