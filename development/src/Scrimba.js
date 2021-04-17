@@ -9,13 +9,26 @@ import logo6 from "E:/react_practice/development/src/Images/founders.jpg";
 import Cardsofcards from "E:/react_practice/development/src/Components/Cardsofcards.js";
 import logo7 from "E:/react_practice/development/src/Images/shape-light-coral-edge-bottom.svg"
 import Discord from "E:/react_practice/development/src/Components/Discord.js";
+import Signin from "E:/react_practice/development/src/Components/Signin.js" 
+import Signup from "E:/react_practice/development/src/Components/Signup.js" 
 
 class Scrimba extends React.Component {
+
+ 
 render(){
     return(
-        <div id="main">
+        <div id="main" onClick={this.myfunction1}>
             
-                <div className="nav">
+                <div id="signin-background" >
+                    <p className="error">SORRY SOME BUGS ARE THERE THAT NEED TO BE FIXED</p>
+                    <Signin />
+                </div>
+                <div id="signup-background" >
+                    <p className="error">SORRY SOME BUGS ARE THERE THAT NEED TO BE FIXED</p>
+                    <Signup />         
+                </div>
+
+                <div id="nav1" className="nav">
                     <span>
                         <img className="logo1" src={Logo1} alt="logo1" />
                     </span>
@@ -24,8 +37,8 @@ render(){
                         <ul className="list1">
                             <li className="pro">Go Pro!</li>
                             <li className="btn1">All Courses</li>
-                            <li className="btn2">Sign In</li>
-                            <li className="btn3">Sign Up</li>
+                            <li className="btn2" onClick = {this.myfunction}>Sign In</li>
+                            <li className="btn3" onClick = {this.myfunction1}>Sign Up</li>
                         </ul>
 
                         
@@ -175,10 +188,29 @@ render(){
 
        
     );
-}
 
 
 }
+
+myfunction = () => {
+
+    document.getElementById("signin-background").style.display = "block";
+    document.getElementById("nav1").style.position = "static";
+
+};
+
+myfunction1 = () => {
+
+    document.getElementById("signup-background").style.display = "block";
+    document.getElementById("nav1").style.position = "static";
+
+};
+
+
+}
+
+
+
 
 
 export default Scrimba
