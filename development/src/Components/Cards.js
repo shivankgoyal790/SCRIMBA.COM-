@@ -9,11 +9,11 @@ return(
         <div className="oval-div">
             <div className="content1">
                 <p className="p1">{props.lesson}<span className="hours"> {props.hour} </span></p>
-                <p className="p2">{props.author}</p>
+                <p className="p2">with <b>{props.author}</b></p>
 
             </div>
             <div className="content2">
-                <img src="" alt="hi" />
+                <img src={props.img_src} alt="hi" className="imager" />
             </div>
         </div>
         <div className="foot">{props.level}</div>

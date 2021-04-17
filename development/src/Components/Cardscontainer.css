@@ -1,21 +1,12 @@
-.cardsalign{
-    width: 23%;
-    margin-left: 10px;
-}
+
 
 .card-container{
     width: 100%;
-    padding: 20px 0px;
-}
-
-.cardsrow{
-
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px 16px;
-    width: 80%;
-    margin-left: 10%;
-}
+    padding: 10px 2px 10px 2px;
+    height: auto;
+    float: none;
+    clear: none;
+}   
 
 .cardheading1{
 
@@ -35,12 +26,40 @@
 
 }
 
+.card-row{
+    clear: both;
+    float: none;
+    width: 80%;
+    margin-left: 15% ;
+    height: 320px;
+}
+
+
+@media screen and (max-width:800px) {
+    .card-row{
+        height: auto;
+    }
+}
+
+
+
 
 
 .btn6{
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 18px;
     border:1px solid black;
     border-radius: 16px;
     background-color: white;
+    color: hsl(250,18%,19%);
 }
+
+
+
+.btn6:hover{
+    box-shadow:5px 5px 20px 20px rgb(0,0,0,0.1);
+    transition: all 0.1s ease-out;
+    --box-shadow-glow: 0 0 0 4px hsla(205.22,79.31%,65.88%,30%);
+    margin-top: -2px;
+}
+
