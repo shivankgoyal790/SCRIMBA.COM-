@@ -17,6 +17,7 @@ const Discord = () => {
                     </h1>
                     <p className="para9">1000+ online now</p>
                     <button className="btn7">Enter Chat</button>
+                    <br />
                     <img src={logo3} alt="poeple"></img>
                 </div>
 
